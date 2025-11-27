@@ -119,7 +119,7 @@ public:
 };
 
 void runFourInRowGame() {
-    cout << "\n=== Four-in-a-row Game ===" << endl;
+    cout << "\n= Four-in-a-row Game " << endl;
 
     FourInRow_Board<char>* board = new FourInRow_Board<char>();
 
