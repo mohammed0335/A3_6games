@@ -47,7 +47,7 @@ public:
     }
 
     bool is_win() override {
-        // Check horizontal
+        
         for (int i = 0; i < this->rows; i++) {
             for (int j = 0; j < this->columns - 3; j++) {
                 if (this->board[i][j] != ' ' &&
@@ -59,7 +59,7 @@ public:
             }
         }
 
-        // Check vertical
+        
         for (int i = 0; i < this->rows - 3; i++) {
             for (int j = 0; j < this->columns; j++) {
                 if (this->board[i][j] != ' ' &&
@@ -71,7 +71,7 @@ public:
             }
         }
 
-        // Check diagonals
+        
         for (int i = 0; i < this->rows - 3; i++) {
             for (int j = 0; j < this->columns - 3; j++) {
                 if (this->board[i][j] != ' ' &&
