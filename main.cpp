@@ -13,7 +13,7 @@ using namespace std;
 
 void displayMenu() {
     cout << "\n==========================================" << endl;
-    cout << "       FCAI Board Games Collection" << endl;
+    cout << "    Games " << endl;
     cout << "     Part 2 Submission - 6 Games" << endl;
     cout << "==========================================" << endl;
     cout << "1. Four-in-a-row" << endl;
@@ -31,7 +31,7 @@ int main() {
 
     int choice;
 
-    cout << "Welcome to FCAI Board Games Platform - Part 2" << endl;
+    cout << "Welcome " << endl;
     cout << "CS213 - Object Oriented Programming" << endl;
 
     do {
