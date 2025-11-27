@@ -59,10 +59,10 @@ int main() {
                 run4x4Game();
                 break;
             case 7:
-                cout << "Thank you for playing!" << endl;
+                cout << "good playing proo" << endl;
                 break;
             default:
-                cout << "Invalid choice! Please try again." << endl;
+                cout << " Please try again" << endl;
         }
 
         if (choice != 7) {
