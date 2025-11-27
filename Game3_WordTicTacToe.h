@@ -57,7 +57,7 @@ public:
     }
 
     bool is_win() override {
-        // Check rows
+        
         for (int i = 0; i < this->rows; i++) {
             string word = "";
             for (int j = 0; j < this->columns; j++) {
@@ -79,7 +79,7 @@ public:
             }
         }
 
-        // Check diagonals
+        
         string diag1 = "";
         diag1 += this->board[0][0];
         diag1 += this->board[1][1];
@@ -122,7 +122,7 @@ public:
 };
 
 void runWordGame() {
-    cout << "\n=== Word Tic-tac-toe ===" << endl;
+    cout << "\n= Word Tic-tac-toe =" << endl;
     loadDictionary();
 
     WordTicTacToe_Board<char>* board = new WordTicTacToe_Board<char>();
