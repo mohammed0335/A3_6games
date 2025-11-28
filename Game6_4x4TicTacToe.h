@@ -42,7 +42,7 @@ public:
     }
 
     bool is_win() override {
-        // Check rows
+        // Check row
         for (int i = 0; i < this->rows; i++) {
             for (int j = 0; j < this->columns - 2; j++) {
                 if (this->board[i][j] != ' ' &&
@@ -53,7 +53,7 @@ public:
             }
         }
 
-        // Check columns
+        // Check column
         for (int j = 0; j < this->columns; j++) {
             for (int i = 0; i < this->rows - 2; i++) {
                 if (this->board[i][j] != ' ' &&
