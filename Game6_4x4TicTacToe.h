@@ -9,7 +9,7 @@ class FourXFour_Board : public Board<T> {
 public:
     FourXFour_Board() : Board<T>(4, 4) {
         for (int i = 0; i < this->rows; i++) {
-            for (int j = 0; j < this->columns; j++) {
+            for (int j = 0; j < this->columns; j++) { /
                 this->board[i][j] = ' ';
             }
         }
